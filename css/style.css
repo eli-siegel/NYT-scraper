@@ -1,8 +1,0 @@
-@font-face {
-    font-family: titleFont;
-    src: url(title-font.ttf);
-}
-
-#pageTitle {
-    font-family: titleFont;
-}

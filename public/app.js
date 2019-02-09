@@ -38,6 +38,7 @@ $.getJSON("/articles", function(data) {
           $("#titleinput").val(data.note.title);
           // Place the body of the note in the body textarea
           $("#bodyinput").val(data.note.body);
+        //   $("#articles").append(data.note.body)
         }
       });
   });
